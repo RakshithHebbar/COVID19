@@ -1,0 +1,157 @@
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidenav {
+    width: 450px;
+    position: fixed;
+    z-index: 1;
+    left: 10px;
+    background: black;
+    overflow-x: hidden;
+    padding: 8px 0;
+  }
+
+  .sidenavnew
+  {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    background: black;
+    overflow-x: hidden;
+    height: 100%;
+  }
+
+  .left{
+    width: 50%;
+    left: 10px;
+  }
+
+  .right{
+    width: 50%;
+    right: 10px;
+  }
+  .sidenav h1 {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: orangered;
+    display: block;
+    font-weight: bold; 
+    text-align: center; 
+    border-bottom: 0;
+  }
+
+  .sidenavnew h1 {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: orangered;
+    display: block;
+    font-weight: bold; 
+    text-align: center; 
+    border-bottom: 0;
+  }
+
+  .sidenav h2 {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: yellowgreen;
+    display: block;
+    font-weight: bold; 
+    text-align: center; 
+    border-bottom: 0;
+  }
+
+  .sidenavnew h2 {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: yellowgreen;
+    display: block;
+    font-weight: bold; 
+    text-align: center; 
+    border-bottom: 0;
+  }
+  
+  .sidenav p {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #2196F3;
+    display: block;
+  }
+  
+  
+  
+  .main {
+     margin-left: 450px; /* Same width as the sidebar + left position in px  */
+     font-size: 28px; /* Increased text to enable scrolling  */
+     padding: 0px 10px;
+     background-color: rgb(243, 237, 237);
+  } 
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav p {font-size: 18px;}
+  }
+
+
+  #example_filter input {
+    border-radius: 5px;
+  }
+  
+
+ table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ddd;
+  }
+  
+
+  th{
+    background-color: burlywood;
+    color: white;
+    text-align: left;
+    padding: 16px;
+    border: 1px solid black;
+  }
+
+  td{
+    text-align: left;
+    padding: 16px;
+  }
+
+  tr:hover {
+    cursor: pointer;
+  
+} 
+
+
+tr:nth-child(even) {
+    background-color: rgb(233, 248, 205) !important ;
+    color : rgb(12, 12, 12) !important ;
+  }
+
+  tr:nth-child(odd)  {
+    background-color: #fefffe !important ;
+    color: black !important ;
+  } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
